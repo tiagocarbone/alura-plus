@@ -177,13 +177,17 @@ body {
 }
 
 
-@media (max-width:5000px ){
+@media (max-width:500px ){
    
-   .container__descricao{
-    width: 100%;
-   }
+    .principal {
+        background-image: none;
+       
+    }
 
-
+    .container__caixa{
+        margin: 1.5em 3em;
+    }
+   
    .secundario {
     align-items: center;
     margin: 0 0em;
